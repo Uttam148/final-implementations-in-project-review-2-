@@ -76,7 +76,7 @@ bash**
 # 1.JSON Export
 - File → Export → JSON
 
-## 2.XML Export 
+# 2.XML Export 
 - File → Export → XML
 # File Formats
 # 1.CSV Mode
