@@ -78,7 +78,7 @@ bash**
 
 ## XML Export 
 - File → Export → XML
-File Formats
+# File Formats
 # CSV Mode
 csv
 - ID,Name,Email,Grade
