@@ -45,10 +45,7 @@ A robust GUI-based student record system using file handling with complete CRUD 
 - Maven 3.8+
 
 ### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/CyberCrafters/student-database-gui.git
-Build the project:
+1.Build the project:
 
 bash
 cd student-database-gui
@@ -84,7 +81,7 @@ AES-256 encrypted serialized objects
 Automatic backups in backups/ directory
 
 Project Structure
-text
+.txt
 src/
 ├── main/
 │   ├── java/
@@ -121,25 +118,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 text
 
-### Key Sections Explained:
-
-1. **Badges**: Visual indicators for technologies used
-2. **Features**: Matches all rubric criteria (CRUD, validation, etc.)
-3. **Installation**: Clear setup instructions
-4. **Usage**: Demonstrates core functionality
-5. **File Formats**: Shows both storage modes
-6. **Validation**: Table format for easy reference
-7. **Troubleshooting**: Covers common error scenarios
-
-### Recommended Additions:
-
-1. **Actual screenshots** in `/docs/screenshots/`
-2. **Demo video** link (upload to YouTube or similar)
-3. **Contributing guidelines** if open-sourcing
-4. **Test coverage report** if available
-
-This README:
-- Addresses all evaluation criteria from the PDF
-- Provides technical documentation
-- Includes user-friendly guides
-- Shows project professionalism
