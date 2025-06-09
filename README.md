@@ -71,8 +71,8 @@ bash
 
 - Click "Add Student"
 
-- Exporting Data
-bash
+**Exporting Data
+bash**
 # JSON Export
 - File → Export → JSON
 
@@ -112,6 +112,13 @@ csv
 
 - Issue: Invalid ID format
 -Solution: Follow STDxxxx pattern (e.g., STD1001)
+
+# 🎯 Key Learning Outcomes #
+Through this project, we:
+- ✔ Mastered file handling in Java (text vs. binary)
+- ✔ Implemented robust error recovery
+- ✔ Designed a clean MVC architecture
+- ✔ Enhanced our JavaFX skills
 
 # Team
 - Uttam Kumar (Team Lead)
