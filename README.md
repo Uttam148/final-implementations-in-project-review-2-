@@ -8,7 +8,6 @@ markdown
 
 A robust GUI-based student record system using file handling with complete CRUD operations, data validation, and automatic backups.
 
-![Screenshot](docs/screenshots/main_window.png) *(Replace with actual screenshot)*
 
 ## Features
 
@@ -56,7 +55,7 @@ cd student-database-gui
 mvn clean package
 Run the application:
 
-bash
+[bash]
 java -jar target/studentdb.jar
 Usage
 Adding a Student
