@@ -73,18 +73,18 @@ bash
 
 **Exporting Data
 bash**
-# JSON Export
+# 1.JSON Export
 - File → Export → JSON
 
-## XML Export 
+## 2.XML Export 
 - File → Export → XML
 # File Formats
-# CSV Mode
+# 1.CSV Mode
 csv
 - ID,Name,Email,Grade
 - STD1001,John Doe,john@uni.edu,A
 - STD1002,Jane Smith,jane@uni.edu,B
-# Binary Mode
+# 2.Binary Mode
 - AES-256 encrypted serialized objects
 
 - Automatic backups in backups/ directory
