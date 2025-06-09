@@ -1,0 +1,33 @@
+student-database-gui/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com/
+│   │   │   │   └── cybercrafters/
+│   │   │   │       ├── controller/
+│   │   │   │       │   └── StudentController.java
+│   │   │   │       ├── model/
+│   │   │   │       │   └── Student.java
+│   │   │   │       ├── service/
+│   │   │   │       │   ├── StudentService.java
+│   │   │   │       │   └── FileManager.java
+│   │   │   │       ├── util/
+│   │   │   │       │   ├── Validator.java
+│   │   │   │       │   └── EncryptionUtil.java
+│   │   │   │       └── MainApp.java
+│   │   └── resources/
+│   │       ├── com/
+│   │       │   └── cybercrafters/
+│   │       │       └── views/
+│   │       │           ├── main.fxml
+│   │       │           └── dialogs/
+│   │       └── styles.css
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── cybercrafters/
+│                   └── service/
+│                       └── StudentServiceTest.java
+├── .gitignore
+├── pom.xml
+└── README.md
