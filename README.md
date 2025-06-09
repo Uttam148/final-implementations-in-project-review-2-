@@ -48,73 +48,72 @@ A robust GUI-based student record system using file handling with complete CRUD 
 1.Build the project:
 
 bash
--cd student-database-gui
--mvn clean package
--Run the application:
+- cd student-database-gui
+- mvn clean package
+- Run the application:
 
 bash
--java -jar target/studentdb.jar
--Usage
--Adding a Student
--Enter ID in STDxxxx format
+- java -jar target/studentdb.jar
+- Usage
+- Adding a Student
+- Enter ID in STDxxxx format
 
--Fill name and email fields
+- Fill name and email fields
 
--Click "Add Student"
+- Click "Add Student"
 
--Exporting Data
--bash
+- Exporting Data
+bash
 # JSON Export
--File → Export → JSON
+- File → Export → JSON
 
-# XML Export 
--File → Export → XML
--File Formats
--CSV Mode
+## XML Export 
+- File → Export → XML
+- File Formats
+# CSV Mode
 csv
--ID,Name,Email,Grade
--STD1001,John Doe,john@uni.edu,A
--STD1002,Jane Smith,jane@uni.edu,B
-Binary Mode
--AES-256 encrypted serialized objects
+- ID,Name,Email,Grade
+- STD1001,John Doe,john@uni.edu,A
+- STD1002,Jane Smith,jane@uni.edu,B
+# Binary Mode
+- AES-256 encrypted serialized objects
 
--Automatic backups in backups/ directory
+- Automatic backups in backups/ directory
 
-##Project Structure
+## Project Structure
 
--src
--├── main
--│   ├── java
--│   │   └── com/cybercrafters
--│   │       ├── controller   # UI Logic
--│   │       ├── model        # Data Classes
--│   │       ├── service      # Business Logic
--│   │       └── util       # Utilities
--│   └── resources          # FXML/CSS
--└── test             # Unit Tests
-#Validation Rules
--Field	Rules	Example
--ID	STD + 4 digits	STD1001
--Name	Letters and spaces only	John Doe
--Email	Valid email format	name@uni.edu
-#Troubleshooting
--Issue: "File corruption detected"
--Solution: System auto-restores from latest backup in backups/
+- src
+- ├── main
+- │   ├── java
+- │   │   └── com/cybercrafters
+- │   │       ├── controller   # UI Logic
+- │   │       ├── model        # Data Classes
+- │   │       ├── service      # Business Logic
+- │   │       └── util       # Utilities
+- │   └── resources          # FXML/CSS
+- └── test             # Unit Tests
+# Validation Rules
+- Field	Rules	Example
+- ID	STD + 4 digits	STD1001
+- Name	Letters and spaces only	John Doe
+- Email	Valid email format	name@uni.edu
+# Troubleshooting
+- Issue: "File corruption detected"
+- Solution: System auto-restores from latest backup in backups/
 
--Issue: Invalid ID format
+- Issue: Invalid ID format
 -Solution: Follow STDxxxx pattern (e.g., STD1001)
 
-#Team
--Uttam Kumar (Team Lead)
+# Team
+- Uttam Kumar (Team Lead)
 
--Vivek Latwal
+- Vivek Latwal
 
--Krish Singh
+- Krish Singh
 
--Rudra Pratap Singh
+- Rudra Pratap Singh
 
-#License
--This project is licensed under the MIT License - see the LICENSE file for details.
+# License
+- This project is licensed under the MIT License - see the LICENSE file for details.
 
-text
 
