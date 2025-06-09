@@ -81,8 +81,8 @@ AES-256 encrypted serialized objects
 Automatic backups in backups/ directory
 
 Project Structure
-.txt
-src/
+
+**src/
 ├── main/
 │   ├── java/
 │   │   └── com/cybercrafters/
@@ -91,7 +91,7 @@ src/
 │   │       ├── service/      # Business Logic
 │   │       └── util/         # Utilities
 │   └── resources/            # FXML/CSS
-└── test/                     # Unit Tests
+└── test/                     # Unit Tests**
 Validation Rules
 Field	Rules	Example
 ID	STD + 4 digits	STD1001
