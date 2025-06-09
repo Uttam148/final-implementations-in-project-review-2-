@@ -7,15 +7,16 @@ markdown
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 A robust GUI-based student record system using file handling with complete CRUD operations, data validation, and automatic backups.
+**By Team CyberCrafters**
 ## 📌 Introduction
 - Welcome to our Student Database Management System, a lightweight yet powerful Java application designed to manage student records efficiently without relying on traditional databases. Instead, we use file handling techniques (both text and binary formats) to store, retrieve, and modify data.
 
 - This project was developed as part of our exploration into core Java programming, file I/O operations, and GUI development using JavaFX.
 
 ## 🔍 Why File-Based?
-✔ No external database required – Runs on any system with Java installed
-✔ Perfect for small-scale applications (e.g., school records, personal projects)
-✔ Helps understand fundamental data persistence before moving to SQL/NoSQL
+- ✔ No external database required – Runs on any system with Java installed
+- ✔ Perfect for small-scale applications (e.g., school records, personal projects)
+- ✔ Helps understand fundamental data persistence before moving to SQL/NoSQL
 
 ## Features
 
