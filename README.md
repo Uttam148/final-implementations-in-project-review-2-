@@ -82,16 +82,16 @@ Automatic backups in backups/ directory
 
 Project Structure
 
-**src/
-├── main/
-│   ├── java/
-│   │   └── com/cybercrafters/
-│   │       ├── controller/   # UI Logic
-│   │       ├── model/        # Data Classes
-│   │       ├── service/      # Business Logic
-│   │       └── util/         # Utilities
-│   └── resources/            # FXML/CSS
-└── test/                     # Unit Tests**
+**src
+├── main
+│   ├── java
+│   │   └── com/cybercrafters
+│   │       ├── controller   # UI Logic
+│   │       ├── model        # Data Classes
+│   │       ├── service      # Business Logic
+│   │       └── util       # Utilities
+│   └── resources          # FXML/CSS
+└── test             # Unit Tests**
 Validation Rules
 Field	Rules	Example
 ID	STD + 4 digits	STD1001
